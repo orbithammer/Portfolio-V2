@@ -1,42 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router-dom";
-
-function Layout() {
-  return (
-    <div>
-      <h3>Welcome to my page!</h3>
-      <nav>
-        <Link to="/">Home</Link> | <Link to="/about">About</Link> | <Link to="/contact">Contact</Link>
-      </nav>
-      <Outlet />
-    </div>
-  )
-};
-
-function HomePage() {
-  return (
-    <main>
-      <h2>Home</h2>
-    </main>
-  );
-}
-
-function AboutPage() {
-  return (
-    <main>
-      <h2>About Me</h2>
-    </main>
-  );
-}
-
-function ContactPage() {
-  return (
-    <main>
-      <h2>Contact</h2>
-    </main>
-  );
-}
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout"
+import HomePage from "./pages/HomePage"
+import AboutPage from "./pages/AboutPage"
+import ContactPage from "./pages/ContactPage"
+import ProjectPlPage from "./pages/ProjectPlPage"
 
 function App() {
   return (
@@ -45,6 +14,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
           <Route path="about" element={<AboutPage />} />
+          <Route path="projects" element={<ProjectPlPage />} />
           <Route path="contact" element={<ContactPage />} />
         </Route>
       </Routes>
