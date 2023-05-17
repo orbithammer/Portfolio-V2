@@ -5,13 +5,14 @@ export default function Layout() {
     const activeStyles = {
         fontWeight: "bold",
         textDecoration: "underline",
-        color: "#0080FF"
+        textDecorationColor: "#722626",
+        color: "#a5ffd9"
     }
     
     return(
         <div>
             <div className="navbarWrapper">
-                <img src="./images/portrait.png" className="portrait" />
+                <img src="./images/portrait.jpg" className="portrait" />
                 <nav>
                     <NavLink 
                         to="/" 
