@@ -18,25 +18,39 @@ export default function HomePage() {
                 </div>
             </header>
             <main>
-                <h2>Why hire me?</h2>
-                    <h3>Tenacity</h3>
-                        <img src="./images/tenacity.png" />
-                        <p>When I sink my teeth into a coding challenge, I don't stop until it's solved.</p>
-                    <h3>Life-long Learner</h3>
-                        <img src="./images/lifelongLearner.png" />
-                        <p>I am zealous about the continous cycle of skill development. I embrace new technologies and design patterns.</p>
-                    <h3>Mature</h3>
-                        <img src="./images/mature.png" />
-                        <p>Responsible and reliable, I take on tasks with professionalism. I am experienced with adhering to uncertain schedules.</p>
-                    <h3>Goal Oriented</h3>
-                        <img src="./images/goalOriented.png" />
-                        <p>Focused on achieving results, I break complex tasks down into their essiential components. In this way, I will contribute to delivering the finished product on or before the dealine.</p>
+                <section>
+                    <h2>Why hire me?</h2>
+                    <div className="qualityPl">
+                            <div className="quality">
+                                <img src="./images/tenacity.png" />
+                                <h3>Tenacious</h3>
+                                <p>When I sink my teeth into a coding challenge, I don't stop until it's solved.</p>
+                            </div>
+                            <div className="quality">
+                                <img src="./images/lifelongLearner.png" />
+                                <h3>Life-long Learner</h3>
+                                <p>I am zealous about the continous cycle of skill development. I embrace new technologies and design patterns.</p>
+                            </div>
+                            <div className="quality">
+                                <img src="./images/mature.png" />
+                                <h3>Mature</h3>
+                                <p>Responsible and reliable, I take on tasks with professionalism. I am experienced with adhering to uncertain schedules.</p>
+                            </div>
+                            <div className="quality">
+                                <img src="./images/goalOriented.png" />
+                                <h3>Goal Oriented</h3>
+                                <p>Focused on achieving results, I break complex tasks down into their essiential components. In this way, I will contribute to delivering the finished product on or before the dealine.</p>
+                            </div>
+                    </div>
+                </section>
                 <h2>Technologies</h2>
-                    <h3>HTML</h3>
-                    <h3>CSS</h3>
-                    <h3>Javascript</h3>
-                    <h3>React</h3>
-                    <h3>React Router</h3>
+                <div className="technologiesWrapper">
+                    <h4><img src="./images/html5.svg" />HTML</h4>
+                    <h4><img src="./images/css3-alt.svg" />CSS</h4>
+                    <h4><img src="./images/js.svg" />Javascript</h4>
+                    <h4><img src="./images/react.svg" />React</h4>
+                    <h4><img src="./images/react-router.svg" />React Router</h4>
+                </div>
             </main>
         </div>
     )
