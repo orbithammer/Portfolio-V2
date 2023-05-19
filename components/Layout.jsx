@@ -12,23 +12,19 @@ export default function Layout() {
     return(
         <div>
             <div className="navbarWrapper">
-                <img src="./images/portrait.jpg" className="portrait" />
+                <img src="./images/portrait.jpg" className="portraitMobile" />
                 <nav>
                     <NavLink 
                         to="/" 
                         style={({isActive}) => isActive ? activeStyles : null}>Home
-                    </NavLink>{` `}
+                    </NavLink>
                     <NavLink 
                         to="/about" 
                         style={({isActive}) => isActive ? activeStyles : null}>About
-                    </NavLink>{` `}
+                    </NavLink>
                     <NavLink 
                         to="/projects" 
                         style={({isActive}) => isActive ? activeStyles : null}>Projects
-                    </NavLink>{` `}
-                    <NavLink 
-                        to="/contact" 
-                        style={({isActive}) => isActive ? activeStyles : null}>Contact
                     </NavLink>
                 </nav>
             </div>

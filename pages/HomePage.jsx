@@ -4,17 +4,22 @@ export default function HomePage() {
     return (
         <div>
             <header>
-                <h1>Hello, my name is <span>Brock Penner</span>.</h1>
-                <h1>I'm a <span>junior frontend developer</span>.</h1>
-                <p className="contactWrapper">Find me on 
-                    <a onClick={()=>{window.open("https://www.linkedin.com/in/brock-penner-97322062", "_blank")}}><img src="./images/linkedin.svg" /></a>
-                    <a onClick={()=>{window.open("https://techhub.social/@brockpenner", "_blank")}}><img src="./images/mastodon.svg" /></a>
-                    <a onClick={()=>{window.open("https://github.com/orbithammer", "_blank")}}><img src="./images/github.svg" /></a>
-                    <a onClick={()=>{window.open("https://twitter.com/BrockTIPenner", "_blank")}}><img src="./images/twitter.svg" /></a>
-                </p>
-                <div className="buttonWrapper">
-                    <a className="emailLink" onClick={()=>{window.open("mailto: brockpenner@protonmail.com", "_blank")}}><img src="./images/envelope-solid.svg" />Email</a>
-                    <a className="resumeLink" onClick={()=>{window.open("/files/resumeBrockPenner.pdf", "_blank")}}><img src="./images/download-solid.svg" />Resume</a>
+                <div className="heroWrapper">
+                    <img src="./images/portrait.jpg" className="portraitHero" />
+                    <div className="heroTextWrapper">
+                        <h1>Hello, my name is <br/><span>Brock Penner</span>.</h1>
+                        <h1>I am a <br/><span>junior developer</span>.</h1>
+                        <p className="contactWrapper">Find me on 
+                            <a onClick={()=>{window.open("https://www.linkedin.com/in/brock-penner-97322062", "_blank")}}><img src="./images/linkedin.svg" /></a>
+                            <a onClick={()=>{window.open("https://techhub.social/@brockpenner", "_blank")}}><img src="./images/mastodon.svg" /></a>
+                            <a onClick={()=>{window.open("https://github.com/orbithammer", "_blank")}}><img src="./images/github.svg" /></a>
+                            <a onClick={()=>{window.open("https://twitter.com/BrockTIPenner", "_blank")}}><img src="./images/twitter.svg" /></a>
+                        </p>
+                    <div className="buttonWrapper">
+                        <a className="emailLink" onClick={()=>{window.open("mailto: brockpenner@protonmail.com", "_blank")}}><img src="./images/envelope-solid.svg" />Email</a>
+                        <a className="resumeLink" onClick={()=>{window.open("/files/resumeBrockPenner.pdf", "_blank")}}><img src="./images/download-solid.svg" />Resume</a>
+                    </div>
+                    </div>
                 </div>
             </header>
             <main>

@@ -8,44 +8,47 @@ html, body {
     --main-color: #a5ffd9;
 }
 
+h1, h2, h3, h4 {
+    font-weight: 400;
+}
+
 .contactWrapper {
     margin: 1rem 0;
 }
 
 a {
     cursor: pointer;
+    color: #f4f4f4;
+    text-decoration: none;
 }
 
 .navbarWrapper {
     display: flex;
     align-items: center;
     padding: 0.5rem;
+    justify-content: space-between;
 }
 
-.navbarWrapper nav {
-    margin-left: auto;
+.navbarWrapper a {
+    margin: 0 0.4rem;
 }
 
-.portrait {
-    width: 10vw;
+.portraitMobile {
+    width: 3rem;
     border-radius: 50%;   
 }
 
-Link {
-    color: red;
+.portraitHero {
+    display: none;
 }
 
-a{
-    color: #f4f4f4;
-    text-decoration: none;
-}
-
-header {
-    /* text-align: center; */
+header,
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 0.5rem;
 }
 
 h1 span {
@@ -54,14 +57,10 @@ h1 span {
     text-decoration-color: #722626;
 }
 
-header,
-main {
-    padding: 0.5rem;
-}
-
 .contactWrapper {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .contactWrapper img {
@@ -150,13 +149,14 @@ h3 {
 }
 
 p {
-    margin: 0;
+    margin: 0 0 1rem;
 }
 
 h4 {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    margin: 0;
+    margin: 0 0.5rem;
     grid-area: tech;
 }
 
@@ -166,6 +166,50 @@ h4 img {
 }
 
 .technologiesWrapper {
-    display: flex;;
+    display: flex;
+    justify-content: center;
     gap: 0.5rem;
+    text-align: center;
+}
+
+.aboutText {
+    text-align: left;
+}
+
+/* ----- MEDIA QUERIES ----- */
+
+@media (min-width: 768px) {
+    header,
+    main {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .navbarWrapper nav {
+        margin-left: auto;
+        font-size: 1.2rem;
+    }
+    .portraitMobile {
+        display: none;
+    }
+    .portraitHero {
+        display: unset;
+        border-radius: 50%;
+        width: 20rem;
+        height: 20rem;
+        margin: 0 1rem;
+    }
+    .heroWrapper {
+        display: flex;
+        text-align: left;
+    }
+    .heroTextWrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .qualityPl {
+        display: flex;
+    }
+    h4 {
+        flex-direction: row;
+    }
 }
