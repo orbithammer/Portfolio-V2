@@ -12,7 +12,7 @@ export default function Layout() {
     return(
         <div>
             <div className="navbarWrapper">
-                <img src="./images/portrait.jpg" className="portraitMobile" />
+                <img src="./images/portrait.jpg" className="portraitMobile" alt="Brock Penner's portrait" />
                 <nav>
                     <NavLink 
                         to="/" 

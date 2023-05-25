@@ -5,6 +5,8 @@ import Layout from "./components/Layout"
 import HomePage from "./pages/HomePage"
 import AboutPage from "./pages/AboutPage"
 import ProjectPlPage from "./pages/ProjectPlPage"
+import CompanyIntranetPage from "./pages/CompanyIntranetPage"
+import PortfolioProjectPage from "./pages/PortfolioProjectPage"
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="projects" element={<ProjectPlPage />} />
+          <Route path="projects/company_intranet" element={<CompanyIntranetPage />} />
+          <Route path="projects/portfolio_project" element={<PortfolioProjectPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
