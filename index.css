@@ -12,7 +12,7 @@ h1, h2, h3, h4 {
     font-weight: 400;
 }
 
-.contactWrapper {
+.contact-wrapper {
     margin: 1rem 0;
 }
 
@@ -22,14 +22,14 @@ a {
     text-decoration: none;
 }
 
-.navbarWrapper {
+.navbar-wrapper {
     display: flex;
     align-items: center;
     padding: 0.5rem;
     justify-content: space-between;
 }
 
-.navbarWrapper a {
+.navbar-wrapper a {
     margin: 0 0.4rem;
 }
 
@@ -61,18 +61,18 @@ h1 span {
     text-decoration-color: #722626;
 }
 
-.contactWrapper {
+.contact-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.contactWrapper img {
+.contact-wrapper img {
     width: 1.1rem;
     margin-left: 0.2rem;
 }
 
-.buttonWrapper {
+.button-wrapper {
     display: flex;
     justify-content: center;
 }
@@ -275,10 +275,21 @@ h4 img {
     margin-left: 3rem;
 }
 
+/* ----- NOT FOUND PAGE ----- */
+
+.link-button {
+    background-color: #f4f4f4;
+    color: #121212;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+
 /* ----- MEDIA QUERIES ----- */
 
 @media (min-width: 768px) {
-    .navbarWrapper nav {
+    .navbar-wrapper nav {
         margin-left: auto;
         font-size: 1.2rem;
     }

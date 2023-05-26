@@ -5,8 +5,8 @@ export default function PortfolioProjectPage() {
         <main className="projectPage">
             <h1>Portfolio Site</h1>
             <div className="projectImgWrapper">
-                <img src="./images/portrait.jpg" alt="screenshot of portfolio site" /> 
-                <img src="./images/portrait.jpg" alt="screenshot of portfolio site" /> 
+                <img src="./images/404.jpg" alt="screenshot of portfolio site" /> 
+                <img src="./images/404.jpg" alt="screenshot of portfolio site" /> 
             </div>
             <h3>Technologies Used:</h3>
             <div className="projectPageTechWrapper">

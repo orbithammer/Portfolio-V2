@@ -9,7 +9,7 @@ export default function HomePage() {
                     <div className="heroTextWrapper">
                         <h1>Hello, my name is <br/><span>Brock Penner</span>.</h1>
                         <h1>I am a <br/><span>junior developer</span>.</h1>
-                        <p className="contactWrapper">Find me on 
+                        <p className="contact-wrapper">Find me on 
                             <a onClick={()=>{window.open("https://www.linkedin.com/in/brock-penner-97322062", "_blank")}}>
                                 <img src="./images/linkedin.svg" alt="linkedin icon" />
                                 </a>
@@ -23,7 +23,7 @@ export default function HomePage() {
                                 <img src="./images/twitter.svg" alt="twitter icon" />
                                 </a>
                         </p>
-                        <div className="buttonWrapper">
+                        <div className="button-wrapper">
                             <a className="emailLink" onClick={()=>{window.open("mailto: brockpenner@protonmail.com", "_blank")}}>
                                 <img src="./images/envelope-solid.svg" alt="email icon" />Email
                             </a>

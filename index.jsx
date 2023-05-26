@@ -7,6 +7,7 @@ import AboutPage from "./pages/AboutPage"
 import ProjectPlPage from "./pages/ProjectPlPage"
 import CompanyIntranetPage from "./pages/CompanyIntranetPage"
 import PortfolioProjectPage from "./pages/PortfolioProjectPage"
+import NotFound from "./pages/NotFound"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="projects" element={<ProjectPlPage />} />
           <Route path="projects/company_intranet" element={<CompanyIntranetPage />} />
           <Route path="projects/portfolio_project" element={<PortfolioProjectPage />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>

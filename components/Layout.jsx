@@ -11,7 +11,7 @@ export default function Layout() {
     
     return(
         <div>
-            <div className="navbarWrapper">
+            <div className="navbar-wrapper">
                 <img src="./images/portrait.jpg" className="portraitMobile" alt="Brock Penner's portrait" />
                 <nav>
                     <NavLink 

@@ -5,8 +5,8 @@ export default function CompanyIntranetPage() {
         <main className="projectPage">
             <h1>Company Intranet</h1>
             <div className="projectImgWrapper">
-                <img src="./images/portrait.jpg" alt="screenshot of portfolio site" /> 
-                <img src="./images/portrait.jpg" alt="screenshot of portfolio site" /> 
+                <img src="./images/404.jpg" alt="screenshot of company intranet site" /> 
+                <img src="./images/404.jpg" alt="screenshot of company intranet site" /> 
             </div>
             <h3>Technologies Used:</h3>
             <div className="projectPageTechWrapper">
