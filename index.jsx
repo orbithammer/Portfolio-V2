@@ -17,8 +17,8 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="projects" element={<ProjectPlPage />} />
-          <Route path="projects/company_intranet" element={<CompanyIntranetPage />} />
-          <Route path="projects/portfolio_project" element={<PortfolioProjectPage />} />
+          <Route path="projects/companyintranet" element={<CompanyIntranetPage />} />
+          <Route path="projects/portfolioproject" element={<PortfolioProjectPage />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

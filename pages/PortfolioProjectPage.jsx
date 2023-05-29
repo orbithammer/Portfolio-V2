@@ -2,11 +2,12 @@ import React from "react"
 
 export default function PortfolioProjectPage() {
     return(
-        <main className="projectPage">
+        <main>
+            <div className="projectPage">
             <h1>Portfolio Site</h1>
             <div className="projectImgWrapper">
-                <img src="./images/404.jpg" alt="screenshot of portfolio site" /> 
-                <img src="./images/404.jpg" alt="screenshot of portfolio site" /> 
+                <img src="./images/portrait.jpg" alt="screenshot of portfolio site" /> 
+                <img src="./images/portrait.jpg" alt="screenshot of portfolio site" /> 
             </div>
             <h3>Technologies Used:</h3>
             <div className="projectPageTechWrapper">
@@ -22,6 +23,7 @@ export default function PortfolioProjectPage() {
             <a className="projectLink" onClick={()=>window.open("https://github.com/orbithammer/Portfolio-V2", "_blank")}> 
                 <img src="./images/github.svg" alt="github icon" /> 
             </a>
+            </div>
         </main>
     )
 }
