@@ -33,12 +33,12 @@ a {
     margin: 0 0.4rem;
 }
 
-.portraitMobile {
+.portrait-mobile {
     width: 3rem;
     border-radius: 50%;   
 }
 
-.portraitHero {
+.portrait-hero {
     display: none;
 }
 
@@ -77,8 +77,8 @@ h1 span {
     justify-content: center;
 }
 
-.emailLink,
-.resumeLink {
+.email-link,
+.resume-link {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -94,24 +94,24 @@ h1 span {
     box-shadow: 0 0 7px var(--main-color);
 }
 
-.emailLink{
+.email-link{
     background-color: #722626;
 }
 
-.resumeLink{
+.resume-link{
     background-color: #121212;
 }
 
-.emailLink img,
-.resumeLink img {
+.email-link img,
+.resume-link img {
     margin-right: 0.2rem;
 }
 
-.emailLink img {
+.email-link img {
     height: 1rem;
 }
 
-.resumeLink img {
+.resume-link img {
     height: 0.9rem;
 }
 
@@ -120,13 +120,13 @@ h2 {
     margin: 1rem;
 }
 
-.whyHire {
+.why-hire {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.qualityPl {
+.quality-pl {
     display: grid;
     grid-template: auto auto / auto auto;
     gap: 1rem;
@@ -170,31 +170,55 @@ h4 img {
     margin-right: 0.2rem;
 }
 
-.technologiesWrapper {
+.technologies-wrapper {
     display: flex;
     justify-content: center;
     gap: 0.5rem;
     text-align: center;
 }
 
+.white-image {
+    filter: brightness(0) invert(1) grayscale(1); 
+}
+
+/* ----- OTHER PAGES ----- */
+
+.back-button {
+    display: flex;
+    flex-direction: row;
+    color:#f4f4f4;
+    align-items: center;
+    margin-right: auto;
+}
+
+.back-button img {
+    border-radius: 50%;
+    height: 2rem;
+    margin-right: 0.5rem;
+}
+
+.back-button span:hover {
+    text-decoration: underline;
+}
+
 /* ----- ABOUT PAGE ----- */
 
-.aboutText {
+.about-text {
     text-align: left;
 }
 
-/* ----- PROJECTS PAGE ----- */
+/* ----- PROJECT SHOWCASE PAGE ----- */
 
-.aboutPage,
-.projectPlPage,
-.projectPage {
+.about-page,
+.project-showcase-page,
+.project-page {
     /* background: yellow; */
     /* display: flex; */
     max-width: 40rem;
     padding: 1rem;
 }
 
-.projectPlWrapper {
+.project-showcase-wrapper {
     /* background: blue; */
     display: flex;
     /* margin-right: auto;
@@ -202,23 +226,39 @@ h4 img {
     /* gap: 1rem; */
 }
 
-.project img {
-    width: 5rem;
+.project-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 300px;
 }
 
-.projectTechWrapper {
+.content-img {
+    object-fit: cover;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 1rem;
+}
+
+.project-tech-wrapper img {
+    width: 5rem;
+    /* object-fit: cover; */
+}
+
+.project-tech-wrapper {
     display: flex;
     /* column-gap: 1rem; */
     margin-bottom: 1rem;
     align-items: center;
 }
 
-.projectTechWrapper img {
+.project-tech-wrapper img {
     height: 2rem;
     /* border: 1px solid blue; */
 }
 
-.projectTechWrapper img:last-of-type {
+.project-tech-wrapper img:last-of-type {
     /* width: 2.5rem; */
     height: 1.8rem;
 }
@@ -235,45 +275,46 @@ h4 img {
 
 /* ----- PROJECT PAGES ----- */
 
-.projectPage {
+.project-page {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.projectPage p {
+.project-page p {
     margin: 0 0 0.5rem 3rem;
 }
 
-.projectImgWrapper {
+.project-img-wrapper {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
 }
 
-.projectImgWrapper img{
+.project-img-wrapper img{
     width: 10rem;
     margin: 0.5rem;
 }
 
-.projectPageTechWrapper {
+.project-page-tech-wrapper {
     display: flex;
     gap: 1rem;
     margin-left: 3rem;
 }
 
-.projectPageTechWrapper img {
+.project-page-tech-wrapper img {
     height: 2rem;
 }
 
-.projectPageTechWrapper img:last-of-type {
+.project-page-tech-wrapper img:last-of-type {
     height: 1.8rem;
 }
 
-.projectLink img {
+.project-link img {
     width: 2rem;
     margin-left: 3rem;
 }
+
 
 /* ----- NOT FOUND PAGE ----- */
 
@@ -293,38 +334,43 @@ h4 img {
         margin-left: auto;
         font-size: 1.2rem;
     }
-    .portraitMobile {
+    .portrait-mobile {
         display: none;
     }
-    .portraitHero {
+    
+    .portrait-hero {
         display: unset;
         border-radius: 50%;
         width: 20rem;
         height: 20rem;
         margin: 0 1rem;
     }
-    .heroWrapper {
+    
+    .hero-wrapper {
         display: flex;
         text-align: left;
     }
-    .heroTextWrapper {
+    
+    .hero-text-wrapper {
         display: flex;
         flex-direction: column;
     }
-    .qualityPl {
+    
+    .quality-pl {
         display: flex;
     }
+    
     h4 {
         flex-direction: row;
     }
-    /* ----- PROJECT PAGES ----- */
-    .projectImgWrapper {
+    
+    .project-img-wrapper {
         flex-direction: row;
     }
-}
-
-@media (max-width: 550px) {
-    .projectPlWrapper {
-        flex-direction: column;
+    
+    @media (max-width: 550px) {
+        .project-showcase-wrapper {
+            flex-direction: column;
+        }
     }
 }

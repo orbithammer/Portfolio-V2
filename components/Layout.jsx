@@ -1,5 +1,6 @@
-import React from "react"
-import { NavLink, Outlet } from "react-router-dom"
+import React from "react";
+import { NavLink, Outlet } from "react-router-dom";
+import Portrait from "/images/portrait.jpg"
 
 export default function Layout() {
     const activeStyles = {
@@ -7,12 +8,12 @@ export default function Layout() {
         textDecoration: "underline",
         textDecorationColor: "#722626",
         color: "#a5ffd9"
-    }
+    };
     
-    return(
+    return (
         <div>
             <div className="navbar-wrapper">
-                <img src="./images/portrait.jpg" className="portraitMobile" alt="Brock Penner's portrait" />
+                <img src={Portrait} className="portrait-mobile" alt="Brock Penner's portrait" />
                 <nav>
                     <NavLink 
                         to="/" 
@@ -30,5 +31,5 @@ export default function Layout() {
             </div>
             <Outlet />
         </div>
-    )
+    );
 }
