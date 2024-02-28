@@ -17,6 +17,7 @@ import ReactSvg from "/images/react.svg";
 import ReactRouter from "/images/react-router.svg";
 import ChatGpt from "/images/chatgpt.svg";
 import Langchain from "/images/langchain.png";
+import resumePdf from "/files/resumeBrockPenner.pdf"
 
 export default function HomePage() {
     return (
@@ -45,7 +46,7 @@ export default function HomePage() {
                             <a className="email-link" onClick={()=>{window.open("mailto: brockpenner@protonmail.com", "_blank")}}>
                                 <img src={EnvelopeSolid} alt="email icon" />Email
                             </a>
-                            <a className="resume-link" onClick={()=>{window.open("/files/resumeBrockPenner.pdf", "_blank")}}>
+                            <a className="resume-link" href={resumePdf}>
                                 <img src={DownloadSolid} alt="download icon" />Resume
                             </a>
                         </div>
