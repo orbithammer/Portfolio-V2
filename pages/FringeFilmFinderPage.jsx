@@ -10,7 +10,6 @@ import FringeFilmFinder2 from "/images/fringefilmfinder2.jpg";
 import ChatGpt from "/images/chatgpt.svg";
 import Langchain from "/images/langchain.png";
 import Clapper from "/images/clapper.svg"
-// import Bp from "/images/bp.svg"
 
 export default function FringeFilmFinderPage() {
     return (
@@ -22,8 +21,10 @@ export default function FringeFilmFinderPage() {
                 </Link>
                 <h1>Fringe Film Finder</h1>
                 <div className="project-img-wrapper">
-                    <img src={FringeFilmFinder1} alt="screenshot of the Fringe Film Finder page" /> 
-                    <img src={FringeFilmFinder2} alt="screenshot of the Fringe Film Finder page" /> 
+                    <a onClick={() => window.open("https://fringefilmfinder.netlify.app/", "_blank")}>
+                        <img src={FringeFilmFinder1} alt="screenshot of the Fringe Film Finder page" /> 
+                        <img src={FringeFilmFinder2} alt="screenshot of the Fringe Film Finder page" /> 
+                    </a>
                 </div>
                 <h3>Technologies Used:</h3>
                 <div className="project-page-tech-wrapper">
