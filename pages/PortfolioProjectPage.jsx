@@ -30,7 +30,7 @@ export default function PortfolioProjectPage() {
                 <h3>Description:</h3>
                 <p>A mobile-first site to display all of my projects.</p>
                 <h3>What I Learned:</h3>
-                <p>I chose to use React Router to solidify my skills, not out of any real technical need for the library. It was also great CSS practice.</p>
+                <p>I chose to use React Router to solidify my skills and it's the only real option for multi paged apps. It was also great CSS practice to make a responsive design.</p>
                 <h3>Links:</h3>
                 <a className="project-link" onClick={() => window.open("https://github.com/orbithammer/Portfolio-V2", "_blank")}> 
                     <img src={Github} alt="GitHub icon" /> 

@@ -17,6 +17,7 @@ import ReactSvg from "/images/react.svg";
 import ReactRouter from "/images/react-router.svg";
 import ChatGpt from "/images/chatgpt.svg";
 import Langchain from "/images/langchain.png";
+import resumePdf from "/files/resumeBrockPenner.pdf"
 
 export default function HomePage() {
     return (
@@ -45,7 +46,7 @@ export default function HomePage() {
                             <a className="email-link" onClick={()=>{window.open("mailto: brockpenner@protonmail.com", "_blank")}}>
                                 <img src={EnvelopeSolid} alt="email icon" />Email
                             </a>
-                            <a className="resume-link" onClick={()=>{window.open("/files/resumeBrockPenner.pdf", "_blank")}}>
+                            <a className="resume-link" href={resumePdf}>
                                 <img src={DownloadSolid} alt="download icon" />Resume
                             </a>
                         </div>
@@ -81,13 +82,17 @@ export default function HomePage() {
                 <section className="technologies">
                     <h2>Technologies</h2>
                     <div className="technologies-wrapper">
-                        <h4><img src={Html5} alt="html icon" />HTML</h4>
-                        <h4><img src={Css3} alt="css icon" />CSS</h4>
-                        <h4><img src={Js} alt="javascript icon" />Javascript</h4>
-                        <h4><img src={ReactSvg} alt="react icon" />React</h4>
-                        <h4><img src={ReactRouter} alt="react router icon" />React Router</h4>
-                        <h4><img src={ChatGpt} alt="chatgpt icon" />ChatGPT</h4>
-                        <h4><img src={Langchain} className="white-image" alt="langchain icon" />LangChain</h4>
+                        <div className="technologies-row">
+                            <h4><img src={Html5} alt="html icon" />HTML</h4>
+                            <h4><img src={Css3} alt="css icon" />CSS</h4>
+                            <h4><img src={Js} alt="javascript icon" />Javascript</h4>
+                            <h4><img src={ReactSvg} alt="react icon" />React</h4>
+                        </div>
+                        <div className="technologies-row">
+                            <h4><img src={ReactRouter} alt="react router icon" />React Router</h4>
+                            <h4><img src={ChatGpt} alt="chatgpt icon" />ChatGPT</h4>
+                            <h4><img src={Langchain} className="white-image" alt="langchain icon" />LangChain</h4>
+                        </div>
                     </div>
                 </section> 
             </main>

@@ -1,23 +1,39 @@
-# cZ7Qpztz
+# Brock Penner's Portfolio
 
-Warning: Vite enforces using jsx syntax inside jsx/tsx files, so it will complain about that. Solution: rename `.js` files to `.jsx` :)
+Welcome to Brock Penner's portfolio! This repository showcases the code for Brock's personal website, highlighting his skills, qualities, and contact information.
 
-Quick start:
+## Introduction
 
-```
-$ npm install
-$ npm start
-````
+This React application serves as Brock Penner's personal website. It includes a homepage with information about Brock, his contact details, qualities, and the technologies he's proficient in. 
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+## Features
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+- **Hero Section**: Displays a hero image along with Brock's name and designation.
+- **Contact Links**: Links to Brock's profiles on various platforms such as LinkedIn, Mastodon, GitHub, and Twitter.
+- **Contact Buttons**: Buttons to directly contact Brock via email and download his resume.
+- **Qualities Section**: Highlights Brock's key qualities: tenacity, lifelong learning, maturity, and goal orientation.
+- **Technologies Section**: Lists the technologies Brock is skilled in, including HTML, CSS, JavaScript, React, React Router, ChatGPT, and LangChain.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Installation
 
-Happy Coding!
+To run this project locally, follow these steps:
+
+1. Clone this repository.
+2. Install dependencies using `npm install`.
+3. Start the development server with `npm start`.
+
+## Usage
+
+Feel free to explore the code and customize it to your liking. You can modify the content, styles, or add new features as needed.
+
+## Credits
+
+This project was created and maintained by Brock Penner. 
+
+## Contact
+
+For any inquiries or collaboration opportunities, you can reach out to Brock Penner via email at [brockpenner@protonmail.com](mailto:brockpenner@protonmail.com).
+
+---
+
+Enjoy exploring Brock Penner's portfolio! If you have any suggestions or feedback, feel free to open an issue or submit a pull request.

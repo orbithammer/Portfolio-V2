@@ -172,9 +172,14 @@ h4 img {
 
 .technologies-wrapper {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     gap: 0.5rem;
     text-align: center;
+}
+
+.technologies-row {
+    display: flex;
 }
 
 .white-image {
@@ -221,6 +226,7 @@ h4 img {
 .project-showcase-wrapper {
     /* background: blue; */
     display: flex;
+    flex-direction: column;
     /* margin-right: auto;
     max-width: 23rem; */
     /* gap: 1rem; */
@@ -365,6 +371,14 @@ h4 img {
     }
     
     .project-img-wrapper {
+        flex-direction: row;
+    }
+
+    .technologies-wrapper {
+        flex-direction: row;
+    }
+
+    .project-showcase-wrapper {
         flex-direction: row;
     }
     
