@@ -7,7 +7,6 @@ import ReactRouter from "/images/react-router.svg";
 import ChatGpt from "/images/chatgpt.svg";
 import Langchain from "/images/langchain.png";
 import FringeFilmFinder1 from "/images/fringefilmfinder1.jpg";
-import Portfolio1 from "/images/portfolio1.jpg";
 
 export default function ProjectShowcasePage() {
     return (
@@ -34,7 +33,7 @@ export default function ProjectShowcasePage() {
                 </Link>
                 <Link className="project" to="portfolioproject">
                     <div className="project-content">
-                        <img src={Portfolio1} className="content-img" alt="a screenshot of the company intranet project" />
+                        <img src="./images/portrait.jpg" className="content-img" alt="a screenshot of the company intranet project" />
                         <h3>Portfolio Site</h3>
                         <div className="project-tech-wrapper">
                             <img src={Css3} alt="css icon" />
