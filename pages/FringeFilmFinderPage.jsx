@@ -23,6 +23,8 @@ export default function FringeFilmFinderPage() {
                 <div className="project-img-wrapper">
                     <a onClick={() => window.open("https://fringefilmfinder.netlify.app/", "_blank")}>
                         <img src={FringeFilmFinder1} alt="screenshot of the Fringe Film Finder page" /> 
+                    </a>
+                    <a onClick={() => window.open("https://fringefilmfinder.netlify.app/", "_blank")}>
                         <img src={FringeFilmFinder2} alt="screenshot of the Fringe Film Finder page" /> 
                     </a>
                 </div>
