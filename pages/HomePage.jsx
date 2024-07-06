@@ -90,10 +90,10 @@ export default function HomePage() {
                             <h4><img src={ReactSvg} alt="react icon" />React</h4>
                         </div>
                         <div className="technologies-row">
+                            <h4><img src={TypeScript} calt="TypeScript icon" />TypeScript</h4>
                             <h4><img src={ReactRouter} alt="react router icon" />React Router</h4>
                             <h4><img src={ChatGpt} alt="chatgpt icon" />ChatGPT</h4>
                             <h4><img src={Langchain} className="white-image" alt="langchain icon" />LangChain</h4>
-                            <h4><img src={TypeScript} calt="TypeScript icon" />TypeScript</h4>
                         </div>
                     </div>
                 </section> 
