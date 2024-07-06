@@ -17,6 +17,7 @@ import ReactSvg from "/images/react.svg";
 import ReactRouter from "/images/react-router.svg";
 import ChatGpt from "/images/chatgpt.svg";
 import Langchain from "/images/langchain.png";
+import TypeScript from "/images/typescript.svg";
 import resumePdf from "/files/resumeBrockPenner.pdf"
 
 export default function HomePage() {
@@ -92,6 +93,7 @@ export default function HomePage() {
                             <h4><img src={ReactRouter} alt="react router icon" />React Router</h4>
                             <h4><img src={ChatGpt} alt="chatgpt icon" />ChatGPT</h4>
                             <h4><img src={Langchain} className="white-image" alt="langchain icon" />LangChain</h4>
+                            <h4><img src={TypeScript} calt="TypeScript icon" />TypeScript</h4>
                         </div>
                     </div>
                 </section> 

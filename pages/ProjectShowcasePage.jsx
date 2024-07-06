@@ -6,8 +6,11 @@ import ReactSvg from "/images/react.svg";
 import ReactRouter from "/images/react-router.svg";
 import ChatGpt from "/images/chatgpt.svg";
 import Langchain from "/images/langchain.png";
+import Typescript from "/images/typescript.svg"
 import FringeFilmFinder1 from "/images/fringefilmfinder1.jpg";
 import Portfolio1 from "/images/portfolio1.jpg";
+import IsGlitchDotCom1 from "/images/isGlitchDotCom1.jpg";
+
 
 export default function ProjectShowcasePage() {
     return (
@@ -34,7 +37,7 @@ export default function ProjectShowcasePage() {
                 </Link>
                 <Link className="project" to="portfolioproject">
                     <div className="project-content">
-                        <img src={Portfolio1} className="content-img" alt="a screenshot of the company intranet project" />
+                        <img src={Portfolio1} className="content-img" alt="a screenshot of the portfolio project" />
                         <h3>Portfolio Site</h3>
                         <div className="project-tech-wrapper">
                             <img src={Css3} alt="css icon" />
@@ -42,6 +45,19 @@ export default function ProjectShowcasePage() {
                             <img src={ReactRouter} alt="react router icon" />
                         </div>
                         <p>The portfolio site you are on right now.</p>
+                    </div>
+                </Link>
+                <Link className="project" to="isglitchdotcom">
+                    <div className="project-content">
+                        <img src={IsGlitchDotCom1} className="content-img" alt="a screenshot of the isGlitch.com project" />
+                        <h3>isGlitch.com</h3>
+                        <div className="project-tech-wrapper">
+                            <img src={Css3} alt="css icon" />
+                            <img src={ReactSvg} alt="react icon" />
+                            <img src={ReactRouter} alt="react router icon" />
+                            <img src={Typescript} alt="typescript icon" />
+                        </div>
+                        <p>A satirical tech news website.</p>
                     </div>
                 </Link>
             </section>

@@ -7,6 +7,7 @@ import AboutPage from "./pages/AboutPage"
 import ProjectShowcasePage from "./pages/ProjectShowcasePage"
 import FringeFilmFinderPage from "./pages/FringeFilmFinderPage"
 import PortfolioProjectPage from "./pages/PortfolioProjectPage"
+import IsGlitchPage from "./pages/IsGlitchPage"
 import NotFound from "./pages/NotFound"
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="projects" element={<ProjectShowcasePage />} />
           <Route path="projects/fringefilmfinder" element={<FringeFilmFinderPage />} />
           <Route path="projects/portfolioproject" element={<PortfolioProjectPage />} />
+          <Route path="projects/isglitchdotcom" element={<IsGlitchPage />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

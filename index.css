@@ -5,7 +5,10 @@ html, body {
     font-weight: 400; 
     background-color: #121212;
     color: #f4f4f4;
-    --main-color: #a5ffd9;    
+    --main-color: #a5ffd9; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
 }
 
 h1, h2, h3, h4 {
@@ -27,6 +30,7 @@ a {
     align-items: center;
     padding: 0.5rem;
     justify-content: space-between;
+    max-width: 50rem;
 }
 
 .navbar-wrapper a {
@@ -50,7 +54,6 @@ main {
     margin: 0 auto;
     text-align: center;
     padding: 0.5rem;
-    /* background: red; */
 }
 
 /* ----- HOME PAGE ----- */
