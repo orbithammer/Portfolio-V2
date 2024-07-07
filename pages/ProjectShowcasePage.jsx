@@ -26,11 +26,15 @@ export default function ProjectShowcasePage() {
                         <img src={FringeFilmFinder1} className="content-img" alt="a screenshot of the Fringe Film Finder project" />
                         <h3>Fringe Film Finder</h3>
                         <div className="project-tech-wrapper">
-                            <img src={Css3} alt="css icon" />
-                            <img src={ReactSvg} alt="react icon" />
-                            <img src={ReactRouter} alt="react router icon" />
-                            <img src={ChatGpt} alt="chatgpt icon" />
-                            <img src={Langchain} alt="langchain icon" className="white-image" />
+                            <div className="technologies-row">
+                                <img src={Css3} alt="css icon" />
+                                <img src={ReactSvg} alt="react icon" />
+                                <img src={ReactRouter} alt="react router icon" />
+                            </div>
+                            <div className="technologies-row">
+                                <img src={ChatGpt} alt="chatgpt icon" />
+                                <img src={Langchain} alt="langchain icon" className="white-image" />
+                            </div>
                         </div>
                         <p>A movie recommender. Draws on a database of 10k+ movies.</p>
                     </div>
@@ -40,9 +44,11 @@ export default function ProjectShowcasePage() {
                         <img src={Portfolio1} className="content-img" alt="a screenshot of the portfolio project" />
                         <h3>Portfolio Site</h3>
                         <div className="project-tech-wrapper">
-                            <img src={Css3} alt="css icon" />
-                            <img src={ReactSvg} alt="react icon" />
-                            <img src={ReactRouter} alt="react router icon" />
+                            <div className="technologies-row">
+                                <img src={Css3} alt="css icon" />
+                                <img src={ReactSvg} alt="react icon" />
+                                <img src={ReactRouter} alt="react router icon" />
+                            </div>
                         </div>
                         <p>The portfolio site you are on right now.</p>
                     </div>
@@ -52,10 +58,12 @@ export default function ProjectShowcasePage() {
                         <img src={IsGlitchDotCom1} className="content-img" alt="a screenshot of the isGlitch.com project" />
                         <h3>isGlitch.com</h3>
                         <div className="project-tech-wrapper">
-                            <img src={Css3} alt="css icon" />
-                            <img src={ReactSvg} alt="react icon" />
-                            <img src={ReactRouter} alt="react router icon" />
-                            <img src={Typescript} alt="typescript icon" />
+                            <div className="technologies-row">
+                                <img src={Css3} alt="css icon" />
+                                <img src={ReactSvg} alt="react icon" />
+                                <img src={ReactRouter} alt="react router icon" />
+                                <img src={Typescript} alt="typescript icon" />
+                            </div>
                         </div>
                         <p>A satirical tech news website.</p>
                     </div>

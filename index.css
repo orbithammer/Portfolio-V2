@@ -250,21 +250,17 @@ h4 img {
     border-radius: 1rem;
 }
 
-.project-tech-wrapper img {
-    width: 5rem;
-    /* object-fit: cover; */
-}
-
 .project-tech-wrapper {
     display: flex;
+    flex-direction: column;
     /* column-gap: 1rem; */
     margin-bottom: 1rem;
     align-items: center;
 }
 
 .project-tech-wrapper img {
+    width: 5rem;
     height: 2rem;
-    /* border: 1px solid blue; */
 }
 
 .project-tech-wrapper img:last-of-type {
