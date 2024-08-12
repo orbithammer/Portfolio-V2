@@ -21,6 +21,21 @@ export default function ProjectShowcasePage() {
             </Link>
             <h2>Projects</h2>
             <section className="project-showcase-wrapper">
+                <Link className="project" to="isglitchdotcom">
+                    <div className="project-content">
+                        <img src={IsGlitchDotCom1} className="content-img" alt="a screenshot of the isGlitch.com project" />
+                        <h3>isGlitch.com</h3>
+                        <div className="project-tech-wrapper">
+                            <div className="technologies-row">
+                                <img src={Css3} alt="css icon" />
+                                <img src={ReactSvg} alt="react icon" />
+                                <img src={ReactRouter} alt="react router icon" />
+                                <img src={Typescript} alt="typescript icon" />
+                            </div>
+                        </div>
+                        <p>A satirical tech news website.</p>
+                    </div>
+                </Link>
                 <Link className="project" to="fringefilmfinder">
                     <div className="project-content">
                         <img src={FringeFilmFinder1} className="content-img" alt="a screenshot of the Fringe Film Finder project" />
@@ -51,21 +66,6 @@ export default function ProjectShowcasePage() {
                             </div>
                         </div>
                         <p>The portfolio site you are on right now.</p>
-                    </div>
-                </Link>
-                <Link className="project" to="isglitchdotcom">
-                    <div className="project-content">
-                        <img src={IsGlitchDotCom1} className="content-img" alt="a screenshot of the isGlitch.com project" />
-                        <h3>isGlitch.com</h3>
-                        <div className="project-tech-wrapper">
-                            <div className="technologies-row">
-                                <img src={Css3} alt="css icon" />
-                                <img src={ReactSvg} alt="react icon" />
-                                <img src={ReactRouter} alt="react router icon" />
-                                <img src={Typescript} alt="typescript icon" />
-                            </div>
-                        </div>
-                        <p>A satirical tech news website.</p>
                     </div>
                 </Link>
             </section>
